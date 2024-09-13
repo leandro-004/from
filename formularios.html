@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario </h1>
+
+    <Form action="" method="post" enctype="text/plain">
+        <!-- <table border="1" width="50%"> -->
+            <tr>
+                
+                <td>
+                    <table border="0" width="45%" height="700px">
+                        <tr>
+                            <td>Nombre:</td>
+                            <td><input type="text" name="Nombre" required></td>
+                        </tr>
+                        <tr>
+                            <td>Edad:</td>
+                            <td><input type="number" name="Edad" id="" required></td>
+                        </tr>
+                        <tr>
+                            <td>Contraseña:</td>
+                            <td><input type="password" name="Contraseña" id="" required></td>
+                        </tr>
+                        <tr>
+                            <td>Fecha:</td>
+                            <td><input type="date" name="Fecha" id="" required></td>
+                        </tr>
+                        <tr>
+                            <td>Correo:</td>
+                            <td><input type="email" name="Correo" id="" required></td>
+                        </tr>
+                        <tr>
+                            <td>Solo Lectura:</td>
+                            <td><input type="text" name="SoloLectura" id="" readonly></td>
+                        </tr>
+                        <tr>
+                            <td>Oculto:</td>
+                            <td><input type="text" name="Oculto" id="" hidden></td>
+                        </tr>
+                        <tr>
+                            <td>Text Area:</td>
+                            <td><textarea cols="40" rows="5" name="TextArea" id="" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Lista:</td>
+                            <td>
+                                <select name="Lista" id="" required>
+                                    <option value="1">Amarillo</option>
+                                    <option value="2">Rojo</option>
+                                    <option value="3">Azul</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Radio:</td>
+                            <td>
+                                <input type="radio" name="html" id="" value="HTML" required>HTML <br>
+                                <input type="radio" name="html" id="" value="CSS" required>CSS <br>
+                                <input type="radio" name="html" id="" value="JAVASCRIP" required>JAVASCRIP
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Checkbox:</td>
+                            <td>
+                                <input type="checkbox" name="html" id="" required>HTML <br>
+                                <input type="checkbox" name="html" id="" required>CSS <br>
+                                <input type="checkbox" name="html" id="" required>JAVASCRIP
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Subir Archivo:</td>
+                            <td><input type="file" name="Archivo" id="" required></td>
+                        </tr>
+                        <tr>
+                            <td>Color:</td>
+                            <td><input type="color" name="Color" id="" required></td>
+                        </tr>
+                        <tr>
+                            <td>Placeholder:</td>
+                            <td><input type="number" name="Placeholder" placeholder="Ingrese numero" required></td>
+                        </tr>
+                        <tr>
+                            <td>Maxlenght:</td>
+                            <td><input type="number" name="Maxlenght" maxlength="5" required></td>
+                        </tr>
+                        <tr>
+                            <td>Max:</td>
+                            <td><input type="number" name="Max" max="5" min="0" required></td>
+                        </tr>
+                        <tr>
+                            <td>Resetear:</td>
+                            <td><input type="reset" value=" Resetear"></td>
+                        </tr>
+                        <tr>
+                            <td>Enviar:</td>
+                            <td><input type="submit"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </Form>
+
+</body>
+
+</html>
